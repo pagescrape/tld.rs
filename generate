@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+target = File.join(Dir.pwd, "src", "tld.rs")
+
+File.unlink(target) if File.exist?(target)
+
+domains = `curl https://data.iana.org/TLD/tlds-alpha-by-domain.txt | sed '1d'`
+          .split("\n").map(&:strip)
+
+StringIO.open do |s|
+  s.puts "// Auto generated #{Time.now}"
+  s.puts 'use phf::Map;'
+  s.puts ''
+  s.puts "pub static TLD: Map<&'static str, &'static str> = phf_map! {"
+  domains.each do |domain|
+    s.puts %(    "#{domain.downcase}" => "",)
+  end
+  s.puts '};'
+  IO.write(target, s.string)
+end
