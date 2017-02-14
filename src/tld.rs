@@ -1,4 +1,4 @@
-// Auto generated 2017-01-20 22:41:51 +0200
+// Auto generated 2017-02-14 22:04:19 +0200
 use phf::Map;
 
 pub static TLD: Map<&'static str, &'static str> = phf_map! {
