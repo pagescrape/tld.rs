@@ -1,4 +1,4 @@
-// Auto generated 2017-02-14 22:04:19 +0200
+// Auto generated 2017-02-21 22:32:35 +0200
 use phf::Map;
 
 pub static TLD: Map<&'static str, &'static str> = phf_map! {
@@ -31,6 +31,7 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "af" => "",
     "afamilycompany" => "",
     "afl" => "",
+    "africa" => "",
     "ag" => "",
     "agakhan" => "",
     "agency" => "",
@@ -1452,6 +1453,7 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "xn--mgba7c0bbn0a" => "",
     "xn--mgbaam7a8h" => "",
     "xn--mgbab2bd" => "",
+    "xn--mgbai9azgqp6j" => "",
     "xn--mgbayh7gpa" => "",
     "xn--mgbb9fbpob" => "",
     "xn--mgbbh1a71e" => "",
