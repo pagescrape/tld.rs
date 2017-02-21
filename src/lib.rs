@@ -1,7 +1,6 @@
 #![feature(plugin)]
 #![plugin(phf_macros)]
 
-#[macro_use]
 extern crate phf;
 
 mod tld;
