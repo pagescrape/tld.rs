@@ -1,4 +1,4 @@
-// Auto generated 2017-02-21 22:32:35 +0200
+// Auto generated 2017-04-17 22:41:19 +0300
 use phf::Map;
 
 pub static TLD: Map<&'static str, &'static str> = phf_map! {
@@ -588,6 +588,7 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "hosting" => "",
     "hot" => "",
     "hoteles" => "",
+    "hotels" => "",
     "hotmail" => "",
     "house" => "",
     "how" => "",
@@ -929,7 +930,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "orange" => "",
     "org" => "",
     "organic" => "",
-    "orientexpress" => "",
     "origins" => "",
     "osaka" => "",
     "otsuka" => "",
@@ -1058,6 +1058,7 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "rs" => "",
     "rsvp" => "",
     "ru" => "",
+    "rugby" => "",
     "ruhr" => "",
     "run" => "",
     "rw" => "",
