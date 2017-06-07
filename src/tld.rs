@@ -1,4 +1,4 @@
-// Auto generated 2017-04-17 22:41:19 +0300
+// Auto generated 2017-06-07 22:21:20 +0300
 use phf::Map;
 
 pub static TLD: Map<&'static str, &'static str> = phf_map! {
@@ -70,6 +70,7 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "aq" => "",
     "aquarelle" => "",
     "ar" => "",
+    "arab" => "",
     "aramco" => "",
     "archi" => "",
     "army" => "",
@@ -405,6 +406,7 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "estate" => "",
     "esurance" => "",
     "et" => "",
+    "etisalat" => "",
     "eu" => "",
     "eurovision" => "",
     "eus" => "",
@@ -847,7 +849,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "msd" => "",
     "mt" => "",
     "mtn" => "",
-    "mtpc" => "",
     "mtr" => "",
     "mu" => "",
     "museum" => "",
@@ -1471,6 +1472,7 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "xn--mxtq1m" => "",
     "xn--ngbc5azd" => "",
     "xn--ngbe9e0a" => "",
+    "xn--ngbrx" => "",
     "xn--node" => "",
     "xn--nqv7f" => "",
     "xn--nqv7fs00ema" => "",
