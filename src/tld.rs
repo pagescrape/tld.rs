@@ -1,4 +1,4 @@
-// Auto generated 2017-06-07 22:21:20 +0300
+// Auto generated 2017-06-14 08:21:21 +0300
 use phf::Map;
 
 pub static TLD: Map<&'static str, &'static str> = phf_map! {
@@ -1453,6 +1453,7 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "xn--mgba3a3ejt" => "",
     "xn--mgba3a4f16a" => "",
     "xn--mgba7c0bbn0a" => "",
+    "xn--mgbaakc7dvf" => "",
     "xn--mgbaam7a8h" => "",
     "xn--mgbab2bd" => "",
     "xn--mgbai9azgqp6j" => "",
