@@ -7,6 +7,10 @@ mod tld;
 
 pub use tld::TLD;
 
+/// Convenience function to check if given TLD exists in
+/// IANA official TLD list.
+///
+/// https://data.iana.org/TLD/tlds-alpha-by-domain.txt
 pub fn exist(s: &str) -> bool {
     TLD.contains_key(s)
 }
