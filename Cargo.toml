@@ -1,9 +1,9 @@
 [package]
 name = "tld"
-version = "1.0.0"
+version = "1.1.0"
 authors = ["Ernestas Poskus <ernestas.poskus@gmail.com>"]
 license = "BSD-3-Clause"
-documentation = "https://github.com/linkosmos/tld"
+documentation = "https://docs.rs/tld"
 homepage = "https://github.com/linkosmos/tld"
 repository = "https://github.com/linkosmos/tld"
 description = """

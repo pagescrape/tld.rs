@@ -11,6 +11,7 @@ StringIO.open do |s|
   s.puts "// Auto generated #{Time.now}"
   s.puts 'use phf::Map;'
   s.puts ''
+  s.puts '/// Top level domain static map, list is obtained from iana.org.'
   s.puts "pub static TLD: Map<&'static str, &'static str> = phf_map! {"
   domains.each do |domain|
     s.puts %(    "#{domain.downcase}" => "",)

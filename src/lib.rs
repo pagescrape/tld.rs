@@ -1,5 +1,18 @@
 #![feature(plugin)]
 #![plugin(phf_macros)]
+#![warn(
+    missing_docs,
+    missing_debug_implementations,
+    missing_copy_implementations,
+    trivial_casts,
+    trivial_numeric_casts,
+    unused_extern_crates,
+    unused_import_braces,
+    unused_qualifications,
+    variant_size_differences
+)]
+
+//!  TLD - top level domain static map, list is obtained from iana.org.
 
 extern crate phf;
 

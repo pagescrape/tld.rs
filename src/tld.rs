@@ -1,6 +1,7 @@
-// Auto generated 2017-08-02 21:03:03 +0300
+// Auto generated 2017-08-13 12:11:32 +0300
 use phf::Map;
 
+/// Top level domain static map, list is obtained from iana.org.
 pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "aaa" => "",
     "aarp" => "",
