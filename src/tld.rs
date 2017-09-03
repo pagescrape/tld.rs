@@ -1,8 +1,9 @@
-// Auto generated 2017-08-13 12:11:32 +0300
+// Auto generated 2017-09-03 15:04:06 +0300
 use phf::Map;
 
 /// Top level domain static map, list is obtained from iana.org.
-pub static TLD: Map<&'static str, &'static str> = phf_map! {
+pub static TLD: Map<&'static str, &'static str> =
+    phf_map! {
     "aaa" => "",
     "aarp" => "",
     "abarth" => "",
@@ -793,8 +794,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "mattel" => "",
     "mba" => "",
     "mc" => "",
-    "mcd" => "",
-    "mcdonalds" => "",
     "mckinsey" => "",
     "md" => "",
     "me" => "",
@@ -836,7 +835,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "monash" => "",
     "money" => "",
     "monster" => "",
-    "montblanc" => "",
     "mopar" => "",
     "mormon" => "",
     "mortgage" => "",

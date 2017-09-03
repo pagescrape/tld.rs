@@ -53,4 +53,5 @@ fn test_exist() {
     assert!(exist("de"));
     assert!(exist("zw"));
     assert!(!exist("a9292zw"));
+    assert!(!exist("mcd"));
 }
