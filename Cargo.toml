@@ -1,6 +1,6 @@
 [package]
 name = "tld"
-version = "1.5.0"
+version = "1.6.0"
 authors = ["Ernestas Poskus <ernestas.poskus@gmail.com>"]
 license = "BSD-3-Clause"
 documentation = "https://docs.rs/tld"
