@@ -1,14 +1,14 @@
 [package]
-name = "tld"
-version = "1.7.0"
 authors = ["Ernestas Poskus <ernestas.poskus@gmail.com>"]
-license = "BSD-3-Clause"
-documentation = "https://docs.rs/tld"
-homepage = "https://github.com/linkosmos/tld"
-repository = "https://github.com/linkosmos/tld"
 description = """
 Top Level domain static hash map for Rust according to list of iana.org
 """
+documentation = "https://docs.rs/tld"
+homepage = "https://github.com/linkosmos/tld"
+license = "BSD-3-Clause"
+name = "tld"
+repository = "https://github.com/linkosmos/tld"
+version = "1.8.0"
 
 [dependencies]
 phf = "0.7.21"
