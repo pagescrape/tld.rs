@@ -1,5 +1,6 @@
 #!/bin/sh
 
+./generate
 cargo bump minor
 
 git add .
