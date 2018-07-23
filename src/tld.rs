@@ -1,4 +1,4 @@
-// Auto generated 2018-07-01 20:17:54 +0300
+// Auto generated 2018-07-23 17:05:59 +0300
 use phf::Map;
 
 /// Top level domain static map, list is obtained from iana.org.
@@ -618,6 +618,7 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "immo" => "",
     "immobilien" => "",
     "in" => "",
+    "inc" => "",
     "industries" => "",
     "infiniti" => "",
     "info" => "",
@@ -1519,7 +1520,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "xn--yfro4i67o" => "",
     "xn--ygbi2ammx" => "",
     "xn--zfr164b" => "",
-    "xperia" => "",
     "xxx" => "",
     "xyz" => "",
     "yachts" => "",
