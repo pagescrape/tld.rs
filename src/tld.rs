@@ -1,4 +1,4 @@
-// Auto generated 2018-07-23 17:05:59 +0300
+// Auto generated 2018-08-25 13:06:51 +0300
 use phf::Map;
 
 /// Top level domain static map, list is obtained from iana.org.
@@ -1218,7 +1218,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "tech" => "",
     "technology" => "",
     "tel" => "",
-    "telecity" => "",
     "telefonica" => "",
     "temasek" => "",
     "tennis" => "",
