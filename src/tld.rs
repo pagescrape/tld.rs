@@ -1,4 +1,4 @@
-// Auto generated 2018-08-25 13:06:51 +0300
+// Auto generated 2018-10-08 22:19:30 +0300
 use phf::Map;
 
 /// Top level domain static map, list is obtained from iana.org.
@@ -526,7 +526,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "goldpoint" => "",
     "golf" => "",
     "goo" => "",
-    "goodhands" => "",
     "goodyear" => "",
     "goog" => "",
     "google" => "",
@@ -655,7 +654,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "jetzt" => "",
     "jewelry" => "",
     "jio" => "",
-    "jlc" => "",
     "jll" => "",
     "jm" => "",
     "jmp" => "",
@@ -938,7 +936,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "pa" => "",
     "page" => "",
     "panasonic" => "",
-    "panerai" => "",
     "paris" => "",
     "pars" => "",
     "partners" => "",
@@ -1172,7 +1169,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "starhub" => "",
     "statebank" => "",
     "statefarm" => "",
-    "statoil" => "",
     "stc" => "",
     "stcgroup" => "",
     "stockholm" => "",
@@ -1312,7 +1308,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "virgin" => "",
     "visa" => "",
     "vision" => "",
-    "vista" => "",
     "vistaprint" => "",
     "viva" => "",
     "vivo" => "",
