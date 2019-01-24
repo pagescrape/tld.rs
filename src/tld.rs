@@ -1,4 +1,4 @@
-// Auto generated 2018-10-08 22:19:30 +0300
+// Auto generated 2019-01-24 12:34:37 +0200
 use phf::Map;
 
 /// Top level domain static map, list is obtained from iana.org.
@@ -1155,7 +1155,6 @@ pub static TLD: Map<&'static str, &'static str> = phf_map! {
     "sony" => "",
     "soy" => "",
     "space" => "",
-    "spiegel" => "",
     "sport" => "",
     "spot" => "",
     "spreadbetting" => "",
