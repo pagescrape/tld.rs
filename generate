@@ -1,21 +1,46 @@
 #!/usr/bin/env ruby
 
-target = File.join(Dir.pwd, "src", "tld.rs")
+target = File.join(Dir.pwd, "build.rs")
 
 File.unlink(target) if File.exist?(target)
 
 domains = `curl https://data.iana.org/TLD/tlds-alpha-by-domain.txt | sed '1d'`
-          .split("\n").map(&:strip)
+  .split("\n").map(&:strip).sort
 
 StringIO.open do |s|
   s.puts "// Auto generated #{Time.now}"
-  s.puts 'use phf::Map;'
-  s.puts ''
-  s.puts '/// Top level domain static map, list is obtained from iana.org.'
-  s.puts "pub static TLD: Map<&'static str, &'static str> = phf_map! {"
+  s.puts <<-DOC
+    extern crate phf_codegen;
+
+    use std::env;
+    use std::fs::File;
+    use std::io::{BufWriter, Write};
+    use std::path::Path;
+
+    fn main() {
+        let path = Path::new(&env::var("OUT_DIR").unwrap()).join("codegen.rs");
+        let mut file = BufWriter::new(File::create(&path).unwrap());
+
+        writeln!(
+            &mut file,
+            "/// Top level domain static map, list is obtained from iana.org."
+        )
+        .unwrap();
+        write!(&mut file, "pub static TLD: phf::Set<&'static str> = ").unwrap();
+        phf_codegen::Set::new()
+  DOC
+
+
   domains.each do |domain|
-    s.puts %(    "#{domain.downcase}" => "",)
+    s.puts %[    .entry("#{domain.downcase}")]
   end
-  s.puts '};'
+  s.puts %[
+      .build(&mut file)
+      .unwrap();
+  write!(&mut file, \";\\n\").unwrap();
+  ]
+  s.puts '}'
   IO.write(target, s.string)
 end
+
+puts `rustfmt #{target}`

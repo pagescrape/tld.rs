@@ -1,5 +1,4 @@
 #![feature(plugin)]
-#![plugin(phf_macros)]
 #![warn(
     missing_docs,
     missing_debug_implementations,
@@ -16,35 +15,33 @@
 
 extern crate phf;
 
-mod tld;
-
-pub use tld::TLD;
+include!(concat!(env!("OUT_DIR"), "/codegen.rs"));
 
 /// Convenience function to check if given TLD exists in
 /// IANA official TLD list.
 ///
 /// https://data.iana.org/TLD/tlds-alpha-by-domain.txt
 pub fn exist(s: &str) -> bool {
-    TLD.contains_key(s)
+    TLD.contains(s)
 }
 
 #[test]
 fn test_tld() {
-    use tld::TLD;
-    assert!(TLD.get("aaa").is_some());
-    assert!(TLD.get("#33dawaaa").is_none());
-    assert!(TLD.get("aco").is_some());
-    assert!(TLD.get("uk").is_some());
-    assert!(TLD.get("ye").is_some());
-    assert!(TLD.get("com").is_some());
-    assert!(TLD.get("de").is_some());
-    assert!(TLD.get("fr").is_some());
-    assert!(TLD.get("ag").is_some());
-    assert!(TLD.get("ru").is_some());
-    assert!(TLD.get("nl").is_some());
-    assert!(TLD.get("lt").is_some());
-    assert!(TLD.get("amex").is_some());
-    assert!(TLD.get("zw").is_some());
+    use TLD;
+    assert!(TLD.get_key("aaa").is_some());
+    assert!(TLD.get_key("#33dawaaa").is_none());
+    assert!(TLD.get_key("aco").is_some());
+    assert!(TLD.get_key("uk").is_some());
+    assert!(TLD.get_key("ye").is_some());
+    assert!(TLD.get_key("com").is_some());
+    assert!(TLD.get_key("de").is_some());
+    assert!(TLD.get_key("fr").is_some());
+    assert!(TLD.get_key("ag").is_some());
+    assert!(TLD.get_key("ru").is_some());
+    assert!(TLD.get_key("nl").is_some());
+    assert!(TLD.get_key("lt").is_some());
+    assert!(TLD.get_key("amex").is_some());
+    assert!(TLD.get_key("zw").is_some());
 }
 
 #[test]

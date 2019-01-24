@@ -1,5 +1,6 @@
 [package]
 authors = ["Ernestas Poskus <ernestas.poskus@gmail.com>"]
+build = "build.rs"
 description = """
 Top Level domain static hash map for Rust according to list of iana.org
 """
@@ -8,8 +9,10 @@ homepage = "https://github.com/linkosmos/tld"
 license = "BSD-3-Clause"
 name = "tld"
 repository = "https://github.com/linkosmos/tld"
-version = "1.18.0"
+version = "2.0.0"
 
 [dependencies]
 phf = "0.7.24"
-phf_macros = "0.7.24"
+
+[build-dependencies]
+phf_codegen = "0.7.24"
