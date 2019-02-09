@@ -1,4 +1,4 @@
-// Auto generated 2019-01-24 16:30:08 +0200
+// Auto generated 2019-02-09 14:03:05 +0200
 extern crate phf_codegen;
 
 use std::env;
@@ -1175,6 +1175,7 @@ fn main() {
         .entry("sr")
         .entry("srl")
         .entry("srt")
+        .entry("ss")
         .entry("st")
         .entry("stada")
         .entry("staples")
@@ -1468,6 +1469,7 @@ fn main() {
         .entry("xn--mgbaakc7dvf")
         .entry("xn--mgbaam7a8h")
         .entry("xn--mgbab2bd")
+        .entry("xn--mgbah1a3hjkrd")
         .entry("xn--mgbai9azgqp6j")
         .entry("xn--mgbayh7gpa")
         .entry("xn--mgbb9fbpob")
