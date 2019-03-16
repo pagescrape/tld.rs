@@ -1,4 +1,4 @@
-// Auto generated 2019-02-09 14:03:05 +0200
+// Auto generated 2019-03-16 20:33:31 +0200
 extern crate phf_codegen;
 
 use std::env;
@@ -33,7 +33,6 @@ fn main() {
         .entry("accountant")
         .entry("accountants")
         .entry("aco")
-        .entry("active")
         .entry("actor")
         .entry("ad")
         .entry("adac")
@@ -163,7 +162,6 @@ fn main() {
         .entry("bj")
         .entry("black")
         .entry("blackfriday")
-        .entry("blanco")
         .entry("blockbuster")
         .entry("blog")
         .entry("bloomberg")
@@ -409,7 +407,6 @@ fn main() {
         .entry("engineer")
         .entry("engineering")
         .entry("enterprises")
-        .entry("epost")
         .entry("epson")
         .entry("equipment")
         .entry("er")
@@ -1548,7 +1545,6 @@ fn main() {
         .entry("zara")
         .entry("zero")
         .entry("zip")
-        .entry("zippo")
         .entry("zm")
         .entry("zone")
         .entry("zuerich")
