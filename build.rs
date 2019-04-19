@@ -1,4 +1,4 @@
-// Auto generated 2019-03-16 20:33:31 +0200
+// Auto generated 2019-04-19 19:26:55 +0300
 extern crate phf_codegen;
 
 use std::env;
@@ -377,7 +377,6 @@ fn main() {
         .entry("doctor")
         .entry("dodge")
         .entry("dog")
-        .entry("doha")
         .entry("domains")
         .entry("dot")
         .entry("download")
