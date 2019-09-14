@@ -1,4 +1,4 @@
-// Auto generated 2019-06-29 13:23:21 +0300
+// Auto generated 2019-09-14 21:15:06 +0300
 extern crate phf_codegen;
 
 use std::env;
@@ -170,7 +170,6 @@ fn main() {
         .entry("bms")
         .entry("bmw")
         .entry("bn")
-        .entry("bnl")
         .entry("bnpparibas")
         .entry("bo")
         .entry("boats")
@@ -385,7 +384,6 @@ fn main() {
         .entry("dubai")
         .entry("duck")
         .entry("dunlop")
-        .entry("duns")
         .entry("dupont")
         .entry("durban")
         .entry("dvag")
@@ -501,6 +499,7 @@ fn main() {
         .entry("games")
         .entry("gap")
         .entry("garden")
+        .entry("gay")
         .entry("gb")
         .entry("gbiz")
         .entry("gd")
@@ -646,7 +645,6 @@ fn main() {
         .entry("ir")
         .entry("irish")
         .entry("is")
-        .entry("iselect")
         .entry("ismaili")
         .entry("ist")
         .entry("istanbul")
@@ -831,7 +829,6 @@ fn main() {
         .entry("mo")
         .entry("mobi")
         .entry("mobile")
-        .entry("mobily")
         .entry("moda")
         .entry("moe")
         .entry("moi")
@@ -1175,7 +1172,6 @@ fn main() {
         .entry("stada")
         .entry("staples")
         .entry("star")
-        .entry("starhub")
         .entry("statebank")
         .entry("statefarm")
         .entry("stc")
@@ -1467,7 +1463,6 @@ fn main() {
         .entry("xn--mgbah1a3hjkrd")
         .entry("xn--mgbai9azgqp6j")
         .entry("xn--mgbayh7gpa")
-        .entry("xn--mgbb9fbpob")
         .entry("xn--mgbbh1a")
         .entry("xn--mgbbh1a71e")
         .entry("xn--mgbc0a9azcg")
@@ -1499,6 +1494,7 @@ fn main() {
         .entry("xn--pssy2u")
         .entry("xn--q9jyb4c")
         .entry("xn--qcka1pmc")
+        .entry("xn--qxa6a")
         .entry("xn--qxam")
         .entry("xn--rhqv96g")
         .entry("xn--rovu88b")
