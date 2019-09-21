@@ -1,4 +1,4 @@
-// Auto generated 2019-09-14 21:15:06 +0300
+// Auto generated 2019-09-21 16:09:09 +0300
 extern crate phf_codegen;
 
 use std::env;
@@ -313,6 +313,7 @@ fn main() {
         .entry("coupon")
         .entry("coupons")
         .entry("courses")
+        .entry("cpa")
         .entry("cr")
         .entry("credit")
         .entry("creditcard")
