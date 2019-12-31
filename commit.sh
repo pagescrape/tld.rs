@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export OVERCOMMIT_DISABLE=1
+
 ./generate
 cargo bump minor
 
