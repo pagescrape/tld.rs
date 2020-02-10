@@ -12,6 +12,23 @@
 )]
 
 //!  TLD - top level domain static map, list is obtained from iana.org.
+//!
+//!  Crate provides a way to verify top level domain existence.
+//!
+//! ```
+//! use tld;
+//!
+//! assert!(tld::exist("com"));
+//! assert!(tld::exist("io"));
+//! assert!(tld::exist("lt"));
+//! assert!(tld::exist("ru"));
+//! assert!(tld::exist("de"));
+//!
+//! assert!(!tld::exist(""));
+//! assert!(!tld::exist("moc"));
+//!
+//! assert!(tld::TLD.len() > 1400);
+//! ```
 
 extern crate phf;
 
