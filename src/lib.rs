@@ -16,7 +16,7 @@
 //!  Crate provides a way to verify top level domain existence.
 //!
 //! ```
-//! use tld;
+//! extern crate tld;
 //!
 //! assert!(tld::exist("com"));
 //! assert!(tld::exist("io"));
