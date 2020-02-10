@@ -1,4 +1,4 @@
-// Auto generated 2019-12-31 13:16:21 +0200
+// Auto generated 2020-02-10 15:50:00 +0200
 extern crate phf_codegen;
 
 use std::env;
@@ -730,7 +730,6 @@ fn main() {
         .entry("lexus")
         .entry("lgbt")
         .entry("li")
-        .entry("liaison")
         .entry("lidl")
         .entry("life")
         .entry("lifeinsurance")
@@ -1456,6 +1455,7 @@ fn main() {
         .entry("xn--mgbbh1a71e")
         .entry("xn--mgbc0a9azcg")
         .entry("xn--mgbca7dzdo")
+        .entry("xn--mgbcpq6gpa1a")
         .entry("xn--mgberp4a5d4ar")
         .entry("xn--mgbgu82a")
         .entry("xn--mgbi4ecexp")
@@ -1481,6 +1481,7 @@ fn main() {
         .entry("xn--pbt977c")
         .entry("xn--pgbs0dh")
         .entry("xn--pssy2u")
+        .entry("xn--q7ce6a")
         .entry("xn--q9jyb4c")
         .entry("xn--qcka1pmc")
         .entry("xn--qxa6a")
