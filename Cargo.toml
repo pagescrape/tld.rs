@@ -5,11 +5,11 @@ description = """
 Top Level domain static hash map, tld list is obtained from of iana.org
 """
 documentation = "https://docs.rs/tld"
-homepage = "https://github.com/linkosmos/tld"
+homepage = "https://github.com/pagescrape/tld.rs"
 license = "BSD-3-Clause"
 name = "tld"
-repository = "https://github.com/linkosmos/tld"
-version = "2.11.0"
+repository = "https://github.com/pagescrape/tld.rs"
+version = "2.12.0"
 
 [dependencies]
 phf = "0.7.24"
