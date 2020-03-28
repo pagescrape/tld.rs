@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'stringio'
+
 target = File.join(Dir.pwd, "build.rs")
 
 File.unlink(target) if File.exist?(target)

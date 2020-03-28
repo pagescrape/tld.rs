@@ -9,7 +9,7 @@ homepage = "https://github.com/linkosmos/tld"
 license = "BSD-3-Clause"
 name = "tld"
 repository = "https://github.com/linkosmos/tld"
-version = "2.10.0"
+version = "2.11.0"
 
 [dependencies]
 phf = "0.7.24"
