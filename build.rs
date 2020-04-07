@@ -1,4 +1,4 @@
-// Auto generated 2020-03-28 15:29:47 +0200
+// Auto generated 2020-04-08 00:50:16 +0300
 extern crate phf_codegen;
 
 use std::env;
@@ -856,7 +856,6 @@ fn main() {
         .entry("mz")
         .entry("na")
         .entry("nab")
-        .entry("nadex")
         .entry("nagoya")
         .entry("name")
         .entry("nationwide")
@@ -1405,7 +1404,6 @@ fn main() {
         .entry("xn--e1a4c")
         .entry("xn--eckvdtc9d")
         .entry("xn--efvy88h")
-        .entry("xn--estv75g")
         .entry("xn--fct429k")
         .entry("xn--fhbei")
         .entry("xn--fiq228c5hs")
