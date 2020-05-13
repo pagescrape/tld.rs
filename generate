@@ -28,8 +28,11 @@ StringIO.open do |s|
             "/// Top level domain static map, list is obtained from iana.org."
         )
         .unwrap();
-        write!(&mut file, "pub static TLD: phf::Set<&'static str> = ").unwrap();
-        phf_codegen::Set::new()
+
+        writeln!(
+            &mut file,
+            "pub static TLD: phf::Set<&'static str> = {};",
+            phf_codegen::Set::new()
   DOC
 
 
@@ -37,9 +40,8 @@ StringIO.open do |s|
     s.puts %[    .entry("#{domain.downcase}")]
   end
   s.puts %[
-      .build(&mut file)
-      .unwrap();
-  write!(&mut file, \";\\n\").unwrap();
+      .build()
+    ).unwrap();
   ]
   s.puts '}'
   IO.write(target, s.string)
