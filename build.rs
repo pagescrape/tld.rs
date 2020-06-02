@@ -1,4 +1,4 @@
-// Auto generated 2020-05-13 10:48:10 +0300
+// Auto generated 2020-06-02 22:14:28 +0300
 extern crate phf_codegen;
 
 use std::env;
@@ -413,7 +413,6 @@ fn main() {
             .entry("es")
             .entry("esq")
             .entry("estate")
-            .entry("esurance")
             .entry("et")
             .entry("etisalat")
             .entry("eu")
@@ -1092,7 +1091,6 @@ fn main() {
             .entry("schwarz")
             .entry("science")
             .entry("scjohnson")
-            .entry("scor")
             .entry("scot")
             .entry("sd")
             .entry("se")
