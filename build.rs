@@ -1,4 +1,4 @@
-// Auto generated 2020-06-02 22:14:28 +0300
+// Auto generated 2020-06-20 21:50:50 +0300
 extern crate phf_codegen;
 
 use std::env;
@@ -69,6 +69,7 @@ fn main() {
             .entry("alsace")
             .entry("alstom")
             .entry("am")
+            .entry("amazon")
             .entry("americanexpress")
             .entry("americanfamily")
             .entry("amex")
@@ -1395,6 +1396,7 @@ fn main() {
             .entry("xn--c1avg")
             .entry("xn--c2br7g")
             .entry("xn--cck2b3b")
+            .entry("xn--cckwcxetd")
             .entry("xn--cg4bki")
             .entry("xn--clchc0ea0b2g2a9gcd")
             .entry("xn--czr694b")
@@ -1430,6 +1432,7 @@ fn main() {
             .entry("xn--j1aef")
             .entry("xn--j1amh")
             .entry("xn--j6w193g")
+            .entry("xn--jlq480n2rg")
             .entry("xn--jlq61u9w7b")
             .entry("xn--jvr189m")
             .entry("xn--kcrx77d1x4a")
