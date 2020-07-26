@@ -1,4 +1,4 @@
-// Auto generated 2020-06-20 21:50:50 +0300
+// Auto generated 2020-07-26 22:50:28 +0300
 extern crate phf_codegen;
 
 use std::env;
@@ -54,7 +54,6 @@ fn main() {
             .entry("agency")
             .entry("ai")
             .entry("aig")
-            .entry("aigo")
             .entry("airbus")
             .entry("airforce")
             .entry("airtel")
@@ -1190,7 +1189,6 @@ fn main() {
             .entry("sx")
             .entry("sy")
             .entry("sydney")
-            .entry("symantec")
             .entry("systems")
             .entry("sz")
             .entry("tab")
@@ -1438,7 +1436,6 @@ fn main() {
             .entry("xn--kcrx77d1x4a")
             .entry("xn--kprw13d")
             .entry("xn--kpry57d")
-            .entry("xn--kpu716f")
             .entry("xn--kput3i")
             .entry("xn--l1acc")
             .entry("xn--lgbbat1ad8j")
@@ -1479,7 +1476,6 @@ fn main() {
             .entry("xn--otu796d")
             .entry("xn--p1acf")
             .entry("xn--p1ai")
-            .entry("xn--pbt977c")
             .entry("xn--pgbs0dh")
             .entry("xn--pssy2u")
             .entry("xn--q7ce6a")
