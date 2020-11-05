@@ -1,4 +1,4 @@
-// Auto generated 2020-09-19 11:02:40 +0300
+// Auto generated 2020-11-05 22:28:26 +0200
 extern crate phf_codegen;
 
 use std::env;
@@ -634,7 +634,6 @@ fn main() {
             .entry("insurance")
             .entry("insure")
             .entry("int")
-            .entry("intel")
             .entry("international")
             .entry("intuit")
             .entry("investments")
@@ -1150,6 +1149,7 @@ fn main() {
             .entry("song")
             .entry("sony")
             .entry("soy")
+            .entry("spa")
             .entry("space")
             .entry("sport")
             .entry("spot")
