@@ -1,4 +1,4 @@
-// Auto generated 2020-11-05 22:28:26 +0200
+// Auto generated 2020-12-16 10:21:38 +0200
 extern crate phf_codegen;
 
 use std::env;
@@ -245,7 +245,6 @@ fn main() {
             .entry("cbs")
             .entry("cc")
             .entry("cd")
-            .entry("ceb")
             .entry("center")
             .entry("ceo")
             .entry("cern")
@@ -653,7 +652,6 @@ fn main() {
             .entry("jaguar")
             .entry("java")
             .entry("jcb")
-            .entry("jcp")
             .entry("je")
             .entry("jeep")
             .entry("jetzt")
@@ -769,7 +767,6 @@ fn main() {
             .entry("ltda")
             .entry("lu")
             .entry("lundbeck")
-            .entry("lupin")
             .entry("luxe")
             .entry("luxury")
             .entry("lv")
@@ -1119,7 +1116,6 @@ fn main() {
             .entry("shouji")
             .entry("show")
             .entry("showtime")
-            .entry("shriram")
             .entry("si")
             .entry("silk")
             .entry("sina")
