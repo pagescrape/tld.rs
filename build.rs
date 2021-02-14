@@ -1,4 +1,4 @@
-// Auto generated 2020-12-16 10:21:38 +0200
+// Auto generated 2021-02-14 21:51:31 +0200
 extern crate phf_codegen;
 
 use std::env;
@@ -1363,6 +1363,7 @@ fn main() {
             .entry("xn--45br5cyl")
             .entry("xn--45brj9c")
             .entry("xn--45q11c")
+            .entry("xn--4dbrk0ce")
             .entry("xn--4gbrim")
             .entry("xn--54b7fta0cc")
             .entry("xn--55qw42g")
