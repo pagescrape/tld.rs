@@ -15,4 +15,4 @@ version = "2.23.0"
 phf = "0.8"
 
 [build-dependencies]
-phf_codegen = "0.8"
+phf_codegen = "0.9"
