@@ -1,4 +1,4 @@
-// Auto generated 2021-06-19 14:49:26 +0300
+// Auto generated 2021-10-10 23:40:54 +0300
 extern crate phf_codegen;
 
 use std::env;
@@ -997,7 +997,6 @@ fn main() {
             .entry("qpon")
             .entry("quebec")
             .entry("quest")
-            .entry("qvc")
             .entry("racing")
             .entry("radio")
             .entry("raid")
@@ -1032,7 +1031,6 @@ fn main() {
             .entry("ril")
             .entry("rio")
             .entry("rip")
-            .entry("rmit")
             .entry("ro")
             .entry("rocher")
             .entry("rocks")
@@ -1171,7 +1169,6 @@ fn main() {
             .entry("suzuki")
             .entry("sv")
             .entry("swatch")
-            .entry("swiftcover")
             .entry("swiss")
             .entry("sx")
             .entry("sy")
