@@ -1,4 +1,4 @@
-// Auto generated 2022-04-24 11:17:25 +0300
+// Auto generated 2022-11-27 19:19:04 +0200
 extern crate phf_codegen;
 
 use std::env;
@@ -38,7 +38,6 @@ fn main() {
             .entry("aco")
             .entry("actor")
             .entry("ad")
-            .entry("adac")
             .entry("ads")
             .entry("adult")
             .entry("ae")
@@ -197,7 +196,6 @@ fn main() {
             .entry("brussels")
             .entry("bs")
             .entry("bt")
-            .entry("bugatti")
             .entry("build")
             .entry("builders")
             .entry("business")
@@ -217,7 +215,6 @@ fn main() {
             .entry("cam")
             .entry("camera")
             .entry("camp")
-            .entry("cancerresearch")
             .entry("canon")
             .entry("capetown")
             .entry("capital")
