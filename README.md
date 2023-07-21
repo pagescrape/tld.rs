@@ -1,7 +1,6 @@
-# tld [![Build Status](https://travis-ci.org/pagescrape/tld.rs.svg?branch=master)](https://travis-ci.org/pagescrape/tld.rs) [![Cargo](https://img.shields.io/crates/v/tld.svg)](https://crates.io/crates/tld)
+# tld [![Rust](https://github.com/pagescrape/tld.rs/actions/workflows/rust.yml/badge.svg)](https://github.com/pagescrape/tld.rs/actions/workflows/rust.yml)
 
 Top Level domain static hash map, tld list is obtained from of iana.org
-
 
 ```rust,no_run
 extern crate tld;
