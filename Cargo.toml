@@ -9,10 +9,10 @@ homepage = "https://github.com/pagescrape/tld.rs"
 license = "BSD-3-Clause"
 name = "tld"
 repository = "https://github.com/pagescrape/tld.rs"
-version = "2.30.0"
+version = "2.31.0"
 
 [dependencies]
-phf = "0.10"
+phf = "0.11.2"
 
 [build-dependencies]
-phf_codegen = "0.10"
+phf_codegen = "0.11.2"
