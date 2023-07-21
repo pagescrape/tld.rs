@@ -1,4 +1,3 @@
-#![feature(plugin)]
 #![warn(
     missing_docs,
     missing_debug_implementations,
