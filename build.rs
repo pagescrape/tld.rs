@@ -1,4 +1,4 @@
-// Auto generated 2023-07-21 22:49:39 +0300
+// Auto generated 2023-09-06 21:41:33 +0300
 extern crate phf_codegen;
 
 use std::env;
@@ -823,7 +823,6 @@ fn main() {
             .entry("mu")
             .entry("museum")
             .entry("music")
-            .entry("mutual")
             .entry("mv")
             .entry("mw")
             .entry("mx")
@@ -864,7 +863,6 @@ fn main() {
             .entry("nl")
             .entry("no")
             .entry("nokia")
-            .entry("northwesternmutual")
             .entry("norton")
             .entry("now")
             .entry("nowruz")
@@ -1181,7 +1179,6 @@ fn main() {
             .entry("tiaa")
             .entry("tickets")
             .entry("tienda")
-            .entry("tiffany")
             .entry("tips")
             .entry("tires")
             .entry("tirol")
