@@ -1,4 +1,4 @@
-// Auto generated 2024-01-31 20:43:24 +0200
+// Auto generated 2024-02-17 13:20:16 +0200
 extern crate phf_codegen;
 
 use std::env;
@@ -281,7 +281,6 @@ fn main() {
             .entry("college")
             .entry("cologne")
             .entry("com")
-            .entry("comcast")
             .entry("commbank")
             .entry("community")
             .entry("company")
@@ -1295,7 +1294,6 @@ fn main() {
             .entry("wtf")
             .entry("xbox")
             .entry("xerox")
-            .entry("xfinity")
             .entry("xihuan")
             .entry("xin")
             .entry("xn--11b4c3d")
