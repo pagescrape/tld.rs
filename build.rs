@@ -1,4 +1,4 @@
-// Auto generated 2024-08-06 20:41:35 +0300
+// Auto generated 2025-11-10 20:19:51 +0200
 extern crate phf_codegen;
 
 use std::env;
@@ -139,7 +139,6 @@ fn main() {
             .entry("beats")
             .entry("beauty")
             .entry("beer")
-            .entry("bentley")
             .entry("berlin")
             .entry("best")
             .entry("bestbuy")
@@ -318,7 +317,6 @@ fn main() {
             .entry("cymru")
             .entry("cyou")
             .entry("cz")
-            .entry("dabur")
             .entry("dad")
             .entry("dance")
             .entry("data")
@@ -367,7 +365,6 @@ fn main() {
             .entry("drive")
             .entry("dtv")
             .entry("dubai")
-            .entry("dunlop")
             .entry("dupont")
             .entry("durban")
             .entry("dvag")
@@ -649,7 +646,6 @@ fn main() {
             .entry("kddi")
             .entry("ke")
             .entry("kerryhotels")
-            .entry("kerrylogistics")
             .entry("kerryproperties")
             .entry("kfh")
             .entry("kg")
@@ -681,7 +677,6 @@ fn main() {
             .entry("lacaixa")
             .entry("lamborghini")
             .entry("lamer")
-            .entry("lancaster")
             .entry("land")
             .entry("landrover")
             .entry("lanxess")
@@ -713,7 +708,6 @@ fn main() {
             .entry("limo")
             .entry("lincoln")
             .entry("link")
-            .entry("lipsy")
             .entry("live")
             .entry("living")
             .entry("lk")
@@ -938,7 +932,6 @@ fn main() {
             .entry("porn")
             .entry("post")
             .entry("pr")
-            .entry("pramerica")
             .entry("praxi")
             .entry("press")
             .entry("prime")
@@ -972,7 +965,6 @@ fn main() {
             .entry("realty")
             .entry("recipes")
             .entry("red")
-            .entry("redstone")
             .entry("redumbrella")
             .entry("rehab")
             .entry("reise")
